@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <imput type ="text" name = "q" values=" escreva uma frase">
-        <input type="submit" name="btnI" value="Estou com sorte"> 
-    </form>
+
+    <!-- links no topo -->
+    <div class="top-links">
+        <a href="images.html">Imagens</a>
+        <a href="advanced.html">Pesquisa Avançada</a>
+    </div>
+
+    <div class="center-box">
+        <!-- Logo fake -->
+        <h1 class="logo">Google</h1>
+
+        <!-- Formulário de pesquisa -->
+        <form action="https://www.google.com/search">
+            <input class="search-box" type="text" name="q" placeholder="Pesquise no Google">
+
+            <div class="buttons">
+                <input type="submit" value="Pesquisa Google">
+                <input type="submit" name="btnI" value="Estou com sorte">
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
